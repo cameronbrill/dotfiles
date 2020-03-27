@@ -1,0 +1,8 @@
+[user]
+	name = "Cameron Brill"
+	username = "cameronbrill"
+	email = "c00brill@gmail.com"
+[code]
+	editor = vim
+[alias]
+	unstage = "reset HEAD --"
