@@ -1,8 +1,24 @@
 [user]
-	name = "Cameron Brill"
-	username = "cameronbrill"
-	email = "c00brill@gmail.com"
-[code]
-	editor = vim
+	name = Cameron Brill
+	username = cameronbrill
+	email = c00brill@gmail.com 
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[credential]
+	helper = osxkeychain
+
+[init]
+	defaultBranch = main
+
 [alias]
 	unstage = "reset HEAD --"
+
+[pull]
+	rebase = false
+
+[code]
+	editor = vim
