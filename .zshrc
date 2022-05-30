@@ -26,10 +26,6 @@ export PATH=$PATH:$GOROOT/bin
 # kubernetes
 alias k="kubectl"
 
-# fuck
-eval $(thefuck --alias)
-eval $(thefuck --alias FUCK)
-
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
