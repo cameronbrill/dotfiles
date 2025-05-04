@@ -1,2 +1,4 @@
 [tools]
 starship = "1.22"
+tmux="3.5a"
+fzf="0.61"
