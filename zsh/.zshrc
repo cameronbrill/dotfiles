@@ -35,5 +35,14 @@ source $ZDOTDIR/aliases
 autoload -U compinit; compinit
 _comp_options+=(globdots) # With hidden files
 
+# +----------------------+
+# | TOOL VERSION MANAGER |
+# +----------------------+
 
 eval "$(/home/cbril/.local/bin/mise activate zsh)"
+
+
+# +-------+
+# | THEME |
+# +-------+
+eval "$(starship init zsh)"
