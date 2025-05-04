@@ -35,6 +35,7 @@ source $ZDOTDIR/aliases
 autoload -U compinit; compinit
 _comp_options+=(globdots) # With hidden files
 source $ZDOTDIR/plugins/fzf-tab/fzf-tab.plugin.zsh
+source $ZDOTDIR/plugins/prompt-at-bottom/plugin.zsh
 
 # +----------------------+
 # | TOOL VERSION MANAGER |
