@@ -1,0 +1,3 @@
+# show directories on the stack
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
