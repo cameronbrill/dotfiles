@@ -1,5 +1,6 @@
 cache/
 
 zsh/.zhistory
+zsh/.zcompdump
 
 local/
