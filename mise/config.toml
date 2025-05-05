@@ -2,3 +2,4 @@
 starship = "1.22"
 tmux="3.5a"
 fzf="0.61"
+eza="0.21"
