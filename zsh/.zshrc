@@ -44,6 +44,7 @@ source $ZDOTDIR/plugins/fzf-tab/fzf-tab.plugin.zsh
 # | RENDERING |
 # +-----------+
 
+if [ "$TMUX" = "" ]; then tmux; fi
 source $ZDOTDIR/plugins/prompt-at-bottom/plugin.zsh
 
 # disable sort when completing `git checkout`
